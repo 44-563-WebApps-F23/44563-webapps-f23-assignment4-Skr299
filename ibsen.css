@@ -48,6 +48,20 @@ td {
     background-color: blanchedalmond;
     height: 30px;
 }
-table tbody tr:nth-child(even){
-    background-color: blueviolet;
+
+tr:hover {background-color:lightskyblue;}
+
+.HEDDA:hover{
+    font-size: medium;
+    color: red;
+    text-shadow: 0 0 20px rgb(197, 230, 13);
+    border-style: dashed;
+    border-radius: 15px;
+}
+.BRACK:hover {
+    font-size: medium;
+    color: blueviolet;
+    text-shadow: 0 0 20px rgb(236, 10, 100);
+    border-style: double;
+    border-radius: 10px;
 }
