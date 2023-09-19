@@ -1,0 +1,53 @@
+.speech{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.direction{
+    font-family: Times New Roman, serif;
+    font-size: 14px;
+    color: black;
+    background-color: lightgray;
+    transition: background-color 0.3s, color 0.3s;
+}
+.direction:hover{
+    background-color: maroon;
+    color: white;
+}
+
+.HEDDA {
+    color: blue; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.BRACK{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+table {
+    border-color: blue;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+th {
+    border: 2px solid;
+    border-radius: 5px;
+    border-color:firebrick;
+    color: white;
+    height: 50px;
+    background-color:rgb(56, 175, 207);
+}
+td {
+    border: 2px solid;
+    border-radius: 10px;
+    border-color:firebrick;
+    background-color: blanchedalmond;
+    height: 30px;
+}
+table tbody tr:nth-child(even){
+    background-color: blueviolet;
+}
