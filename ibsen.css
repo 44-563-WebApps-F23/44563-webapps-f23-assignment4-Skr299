@@ -65,3 +65,29 @@ tr:hover {background-color:lightskyblue;}
     border-style: double;
     border-radius: 10px;
 }
+
+.navbar {
+    background-color: burlywood;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar i {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
